@@ -1,0 +1,32 @@
+﻿{
+  "supportedVendors": [
+    "ie",
+    "chrome",
+    "firefox",
+    "edge",
+    "phantomjs",
+    "remotewebdriver"
+  ],
+  "webDriverFactories": [
+    {
+      "AssemblyName": "Clix.QA.Selenium",
+      "BrowserVendor": "ie",
+      "FullWebDriverFactoryName": "Clix.QA.Selenium.WebDriverFactoryIE"
+    },
+    {
+      "AssemblyName": "Clix.QA.Selenium",
+      "BrowserVendor": "firefox",
+      "FullWebDriverFactoryName": "Clix.QA.Selenium.WebDriverFactoryFirefox"
+    },
+    {
+      "AssemblyName": "Demo.Selenium",
+      "BrowserVendor": "chrome",
+      "FullWebDriverFactoryName": "Demo.Selenium.WebDriverFactoryChromeDemo"
+    },
+    {
+      "AssemblyName": "Clix.QA.Selenium",
+      "BrowserVendor": "remotewebdriver",
+      "FullWebDriverFactoryName": "Clix.QA.Selenium.WebDriverFactoryRemoteWebDriver"
+    }
+  ]
+}
